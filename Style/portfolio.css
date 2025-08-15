@@ -260,3 +260,65 @@ main section
 {
     margin-top: 50px;
 }
+
+/* footer */
+/* .footer
+{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.footer-column
+{
+    flex-basis: 33.33%;
+    padding: 0 20px;
+    margin: 50px 230px;
+}
+.footer-text
+{
+    font-size: 16px;
+    color: #757575;
+}
+.footer-form
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer-form input,
+.footer-form textarea
+{
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.footer-form button
+{
+    align-self: flex-start;
+} */
+
+.footer
+{
+    padding: 130px 230px;
+     display: flex;
+    gap: 100px;
+}
+.footer-column
+{
+   width: 50%;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer textarea
+{
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
